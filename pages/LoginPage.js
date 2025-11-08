@@ -48,8 +48,8 @@ module.exports = {
       I.click(this.buttons.mainLoginButton);
 
 
-      this.fillUsernameField('melikkayaaa@gmail.com');
-      this.fillPasswordField('Hk2139607');
+      this.fillUsernameField('abc@gmail.com');
+      this.fillPasswordField('123456789');
       this.clickButton();
 
       I.waitForElement("//p[text()='Hesabım']", 5); 
